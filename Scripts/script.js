@@ -3,7 +3,7 @@
 // IIFEW = immediatley invoked f/n expression
 $("#btnGetAnimal").on('click', function(){
 // get the user name
-  let bakername = $('#bakername').val();
+  let bakername = $('#bakersname').val();
 //   var variablename = ... let(const)
    $("#greetingArea").text("Hi there, " + bakername + "!");
 // give them greeting
